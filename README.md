@@ -14,7 +14,7 @@ Which uses the Google lib https://github.com/googlei18n/libphonenumber.
 ## How
 
 ```js
-const myCustomJoi = Joi.extend(require('@salesflare/joi-phone-number'));
+const myCustomJoi = Joi.extend(require('joi-phone-number'));
 
 myCustomJoi.string().phoneNumber().validate('+32494567324');
 ```
