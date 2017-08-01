@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Salesflare",
+      "authorEmail": "developers@salesflare.com",
+      "authorUrl": "https://salesflare.com"
+    }
+  }
+}
