@@ -50,7 +50,7 @@
     "google-libphonenumber": "3.0.5"
   },
   "devDependencies": {
-    "coveralls": "^2.13.1",
+    "coveralls": "^3.0.0",
     "eslint": "^4.1.0",
     "eslint-config-xo-space": "^0.16.0",
     "jest": "^21.0.0",
