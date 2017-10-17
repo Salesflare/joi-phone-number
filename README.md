@@ -18,4 +18,11 @@ Which uses the Google lib https://github.com/googlei18n/libphonenumber.
 const myCustomJoi = Joi.extend(require('joi-phone-number'));
 
 myCustomJoi.string().phoneNumber().validate('+32494567324');
+myCustomJoi.string().phoneNumber('BE').validate('+32494567324');
+
+// phone number can be transformed to proper format
+myCustomJoi.string().phoneNumber('BE', 'e164').validate('494322456'); // '+32494322456'
+myCustomJoi.string().phoneNumber('BE', 'international').validate('494322456'); // '+32 494 32 24 56'
+myCustomJoi.string().phoneNumber('BE', 'national').validate('494322456'); // '0494 32 24 56'
+myCustomJoi.string().phoneNumber('BE', 'rfc3966').validate('494322456'); // 'tel:+32-494-32-24-56'
 ```
