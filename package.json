@@ -47,7 +47,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "google-libphonenumber": "3.0.8"
+    "google-libphonenumber": "3.0.9"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
