@@ -1,6 +1,6 @@
 {
   "name": "joi-phone-number",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Phone number validation rule for Joi",
   "homepage": "https://github.com/Salesflare/joi-phone-number",
   "author": "Salesflare <developers@salesflare.com> (https://salesflare.com)",
