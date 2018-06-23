@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.1",
-    "eslint": "^4.18.2",
+    "eslint": "^5.0.0",
     "eslint-config-xo-space": "^0.18.0",
     "jest": "^23.1.0",
     "jest-cli": "^23.1.0",
