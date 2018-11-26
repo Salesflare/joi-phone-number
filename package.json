@@ -15,7 +15,7 @@
     "rule"
   ],
   "scripts": {
-    "prepublish": "nsp check",
+    "prepublish": "npm audit",
     "pretest": "eslint . --fix",
     "test": "jest"
   },
@@ -51,11 +51,10 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "eslint": "^5.7.0",
+    "eslint": "^5.9.0",
     "eslint-config-xo-space": "^0.20.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
-    "joi": "^14.0.1",
-    "nsp": "^3.2.1"
+    "joi": "^14.3.0"
   }
 }
