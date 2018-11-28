@@ -15,7 +15,7 @@
     "rule"
   ],
   "scripts": {
-    "prepublish": "npm audit",
+    "prepublishOnly": "npm audit",
     "pretest": "eslint . --fix",
     "test": "jest"
   },
@@ -47,7 +47,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "google-libphonenumber": "3.1.15"
+    "google-libphonenumber": "3.2.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
