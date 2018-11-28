@@ -27,14 +27,3 @@ myCustomJoi.string().phoneNumber({ defaultCountry: 'BE', format: 'international'
 myCustomJoi.string().phoneNumber({ defaultCountry: 'BE', format: 'national' }).validate('494322456'); // '0494 32 24 56'
 myCustomJoi.string().phoneNumber({ defaultCountry: 'BE', format: 'rfc3966' }).validate('494322456'); // 'tel:+32-494-32-24-56'
 ```
-
-## Changelog
-
-90% of changes to this package will be dependency updates.
-
-Changelogs for both packages mention above can be found here:
-
-* [https://github.com/ruimarinho/google-libphonenumber/blob/master/CHANGELOG.md](https://github.com/ruimarinho/google-libphonenumber/blob/master/CHANGELOG.md)
-* [https://github.com/googlei18n/libphonenumber/blob/master/release_notes.txt](https://github.com/googlei18n/libphonenumber/blob/master/release_notes.txt)
-
-If you want to check the changelog for this package check [https://github.com/Salesflare/joi-phone-number/commits/master](https://github.com/Salesflare/joi-phone-number/commits/master)
