@@ -51,10 +51,10 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
-    "eslint": "^5.14.1",
+    "eslint": "^5.16.0",
     "eslint-config-xo-space": "^0.21.0",
-    "jest": "^24.1.0",
-    "jest-cli": "^24.1.0",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
     "joi": "^14.3.1"
   }
 }
