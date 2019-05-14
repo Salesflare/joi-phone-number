@@ -1,7 +1,7 @@
-sudo: false
 language: node_js
 node_js:
   - node
+  - v12
   - v10
   - v8
 after_script: 'cat ./coverage/lcov.info | coveralls'

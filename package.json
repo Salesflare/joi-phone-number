@@ -50,7 +50,7 @@
     "google-libphonenumber": "3.2.2"
   },
   "devDependencies": {
-    "@hapi/joi": "^15.0.2",
+    "@hapi/joi": "^15.0.3",
     "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-config-xo-space": "^0.21.0",
