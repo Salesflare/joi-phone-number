@@ -1,6 +1,6 @@
 {
   "name": "joi-phone-number",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Phone number validation rule for Joi",
   "homepage": "https://github.com/Salesflare/joi-phone-number",
   "author": "Salesflare <developers@salesflare.com> (https://salesflare.com)",
@@ -47,14 +47,14 @@
     "lib": "lib"
   },
   "dependencies": {
-    "google-libphonenumber": "3.2.3"
+    "google-libphonenumber": "3.2.4"
   },
   "devDependencies": {
     "@hapi/joi": "^16.0.0",
-    "coveralls": "^3.0.4",
-    "eslint": "^6.0.1",
+    "coveralls": "^3.0.6",
+    "eslint": "^6.2.2",
     "eslint-config-xo-space": "^0.21.0",
-    "jest": "^24.8.0",
-    "jest-cli": "^24.8.0"
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0"
   }
 }
