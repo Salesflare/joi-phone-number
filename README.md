@@ -26,4 +26,6 @@ myCustomJoi.string().phoneNumber({ defaultCountry: 'BE', format: 'e164' }).valid
 myCustomJoi.string().phoneNumber({ defaultCountry: 'BE', format: 'international' }).validate('494322456'); // '+32 494 32 24 56'
 myCustomJoi.string().phoneNumber({ defaultCountry: 'BE', format: 'national' }).validate('494322456'); // '0494 32 24 56'
 myCustomJoi.string().phoneNumber({ defaultCountry: 'BE', format: 'rfc3966' }).validate('494322456'); // 'tel:+32-494-32-24-56'
+myCustomJoi.string().phoneNumber({ defaultCountry: 'US', strict: true }).validate('7777777777'); // validation error
+myCustomJoi.string().phoneNumber({ defaultCountry: 'US'}).validate('7777777777'); // 7777777777
 ```
