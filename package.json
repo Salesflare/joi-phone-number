@@ -47,12 +47,12 @@
     "lib": "lib"
   },
   "dependencies": {
-    "google-libphonenumber": "3.2.5"
+    "google-libphonenumber": "3.2.6"
   },
   "devDependencies": {
     "@hapi/joi": "^15.1.1",
-    "coveralls": "^3.0.6",
-    "eslint": "^6.4.0",
+    "coveralls": "^3.0.7",
+    "eslint": "^6.5.1",
     "eslint-config-xo-space": "^0.21.0",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0"
