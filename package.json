@@ -46,7 +46,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "google-libphonenumber": "3.2.7"
+    "google-libphonenumber": "3.2.8"
   },
   "devDependencies": {
     "@hapi/joi": "^17.1.1",
