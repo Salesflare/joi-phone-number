@@ -54,7 +54,7 @@
     "eslint": "^6.8.0",
     "eslint-config-xo-space": "^0.24.0",
     "jest": "^25.1.0",
-    "jest-cli": "^25.1.0"
+    "jest-cli": "^26.0.1"
   },
   "engines": {
     "node": ">=12.16.0"
