@@ -49,12 +49,12 @@
     "google-libphonenumber": "3.2.11"
   },
   "devDependencies": {
-    "@hapi/joi": "^17.1.1",
     "coveralls": "^3.1.0",
     "eslint": "^7.6.0",
     "eslint-config-xo-space": "^0.25.0",
     "jest": "^26.4.0",
-    "jest-cli": "^26.4.0"
+    "jest-cli": "^26.4.0",
+    "joi": "^17.2.1"
   },
   "engines": {
     "node": ">=12.16.0"
