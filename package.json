@@ -46,14 +46,14 @@
     "lib": "lib"
   },
   "dependencies": {
-    "google-libphonenumber": "3.2.11"
+    "google-libphonenumber": "3.2.13"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
-    "eslint": "^7.6.0",
+    "eslint": "^7.9.0",
     "eslint-config-xo-space": "^0.25.0",
-    "jest": "^26.4.0",
-    "jest-cli": "^26.4.0",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2",
     "joi": "^17.2.1"
   },
   "engines": {
