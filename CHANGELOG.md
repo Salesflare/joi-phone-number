@@ -9,3 +9,8 @@ Changelogs for both packages that do the actual validation can be found over her
 
 * [https://github.com/ruimarinho/google-libphonenumber/blob/master/CHANGELOG.md](https://github.com/ruimarinho/google-libphonenumber/blob/master/CHANGELOG.md)
 * [https://github.com/googlei18n/libphonenumber/blob/master/release_notes.txt](https://github.com/googlei18n/libphonenumber/blob/master/release_notes.txt)
+
+## 5.0.0
+
+* use `joi` instead of `@hapi/joi`
+* `defaultCountry` can now be a ref
